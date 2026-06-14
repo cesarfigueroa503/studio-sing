@@ -36,7 +36,7 @@ python --version
 
 1. **Clonar el repositorio**:
    ```bash
-   git clone https://github.com/tu-usuario/karaoke-project.git
+   git clone [https://github.com/cesarfigueroa503/studio-sing.git](https://github.com/cesarfigueroa503/studio-sing.git)
    cd karaoke-project
    ```
 
