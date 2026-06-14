@@ -141,3 +141,9 @@ cython_debug/
 recordings/*.wav
 recordings/*.mp3
 temp/
+
+# Gemini
+.gemini/
+GEMINI.md
+*.skill
+skills/

@@ -5,9 +5,17 @@ Aplicación de escritorio para Windows diseñada para la grabación de voz y mon
 ## Características
 
 - **Monitoreo en Tiempo Real**: Escucha tu voz mientras grabas sin retrasos perceptibles.
+- **Soporte para Pistas de Karaoke**: Permite cargar archivos de video con pistas al estilo karaoke para sincronizar la grabación con la música.
 - **Grabación de Alta Fidelidad**: Captura de audio utilizando `sounddevice` y almacenamiento en formato `.wav`.
 - **Interfaz Moderna**: UI construida con PySide6 con soporte nativo para tema oscuro.
 - **Arquitectura Robusta**: Manejo de hilos separado para la interfaz y el motor de audio, garantizando estabilidad durante la grabación.
+
+## Guía de Uso: Grabando un Karaoke
+
+Para realizar una grabación con pista:
+1. **Cargar la Pista**: Es indispensable cargar un archivo de **video con la pista al estilo karaoke** antes de iniciar.
+2. **Sincronización**: Al cargar el video, la aplicación permitirá iniciar la grabación sincronizada con el audio de la pista cargada.
+3. **Grabación**: La aplicación capturará tu voz limpia mientras escuchas la pista y visualizas la letra en el video.
 
 ## Stack Tecnológico
 
